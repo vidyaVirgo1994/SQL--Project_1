@@ -72,19 +72,24 @@ WHERE
 --Data Exploration 
 
 --How many sales we have?
-SELECT COUNT (*) as total_sale FROM retail_sales
+SELECT COUNT (*) as total_sale 
+FROM retail_sales
 
 --How many customers we have?
-SELECT COUNT (customer_id) as total_sale FROM retail_sales
+SELECT COUNT (customer_id) as total_sale 
+FROM retail_sales
 
 --How many unique customers we have?
-SELECT COUNT (DISTINCT customer_id) as total_sale FROM retail_sales
+SELECT COUNT (DISTINCT customer_id) as total_sale 
+FROM retail_sales
 
 --How many unique category we have?
-SELECT COUNT (DISTINCT category) as total_sale FROM retail_sales
+SELECT COUNT (DISTINCT category) as total_sale 
+FROM retail_sales
 
 --What are distinct category we have?
-SELECT DISTINCT category FROM retail_sales
+SELECT DISTINCT category 
+FROM retail_sales
 
 --Data Analysis & Business key problems & Answers
 
